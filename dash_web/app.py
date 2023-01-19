@@ -2,11 +2,14 @@ from dash import Dash, html, dcc, Input, Output
 import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
+from waitress import serve
 
 df = pd.read_csv('../data_clean.csv')
 
 app = Dash(__name__)
 app.title = 'Clusterización'
+
+server = app.server
 
 app.layout = html.Div([
     html.H1(children='Clusterización'),
@@ -19,4 +22,5 @@ app.layout = html.Div([
 ])
 
 if __name__=='__main__':
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    serve(server, port=8000)

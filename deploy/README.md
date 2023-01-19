@@ -13,7 +13,7 @@ Flask es un framework que muchas personas aprenden como su _primer framework_ we
 
 ## 1. Crear o clonar nuestra aplicación dentro del servidor
 
-Si ya tienen su alicación en un repositorio de Git, clona tu aplicación dentro del servidor.
+Si ya tienen su aplicación en un repositorio de Git, clona tu aplicación dentro del servidor.
 
 * Instalar Python Virtualenv
 
