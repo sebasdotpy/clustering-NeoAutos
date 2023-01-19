@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from waitress import serve
 
-df = pd.read_csv('../data_clean.csv')
+# df = pd.read_csv('../data_clean.csv')
 
 app = Dash(__name__)
 app.title = 'Clusterización'
