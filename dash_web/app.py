@@ -13,6 +13,7 @@ server = app.server
 
 app.layout = html.Div([
     html.H1(children='Clusterización'),
+    html.H4(children='Este es el ultimo cambio que hice'),
     dcc.Graph(id='bar-plot',
               figure=px.bar(df, y='price', x='Marca', color='Combustible', title='Bar plot: price vs Marca'),),
     dcc.Graph(id='box-plot',
