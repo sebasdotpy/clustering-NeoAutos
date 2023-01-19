@@ -88,8 +88,8 @@ WantedBy=multi-user.target
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl start helloworld
-sudo systemctl enable helloworld
+sudo systemctl start dashapp
+sudo systemctl enable dashapp
 ```
 
 * Finalmente verificaremos que la app se está ejecutando con `curl localhost:8000`
