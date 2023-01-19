@@ -144,3 +144,19 @@ sudo systemctl restart nginx
 
 [Waitress](https://flask.palletsprojects.com/en/2.2.x/deploying/waitress/)
 
+# **NOTA**
+
+Para cambiar los permisos de ejecución de un fichero usamos el comando
+
+```bash
+sudo chmod [OPTIONS] nombre_del_fichero.extension
+
+//siendo las opciones:
+u -> user
+g -> group
+o -> others
+
+r -> read
+w -> write
+x -> execute
+```
