@@ -1,0 +1,14 @@
+/* Reset a los estilos del nnavegador */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+#bar-plot {
+	/* width: 60%;
+	height: 50%; */
+}
